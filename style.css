@@ -1,0 +1,84 @@
+/* Comentários explicando as seções do CSS */
+
+/* Estilização geral */
+body {
+    font-family: Apple Chancery, cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #947e7e;
+    color: #333;
+}
+
+/* Menu de navegação */
+header {
+    background-color: #c9b7ef;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #2c2222;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #c9b7ef;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Comentários simples como esse devem explicar partes principais, mas não sobrecarregar o código */
